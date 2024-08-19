@@ -1,0 +1,52 @@
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 2vw;
+font-family: neu;
+}
+
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+    padding-right: 1vw;
+}
+.nav img{
+    width: 10%;
+    height: 5%;
+}
+
+.menubar h4{
+    font-family: neuthin;
+    letter-spacing: 0.5px;
+    font-size: 80%;
+    border: 0.5px solid #b4b4b4;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.menubar h4:hover{
+color: white;
+z-index: 1;
+}
+.menubar h4::after{
+    content: "";
+    z-index: -1;
+    height: 200%;
+    width: 110%;
+    position: absolute; 
+    left: -5%;
+    bottom: -200%;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    transition: all ease 0.6s;
+}
+.menubar h4:hover::after{
+    bottom: -50%;
+}

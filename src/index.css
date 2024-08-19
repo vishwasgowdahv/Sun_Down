@@ -1,0 +1,30 @@
+@font-face {
+    font-family: neu;
+    src: url(./assets/fonts/NeueHaasDisplayLight.ttf);
+}
+@font-face {
+    font-family: neubold;
+    src: url(./assets/fonts/NeueHaasDisplayBold.ttf);
+}
+@font-face {
+    font-family: neumed;
+    src: url(./assets/fonts/NeueHaasDisplayMediu.ttf);
+}
+@font-face {
+    font-family: neuroman;
+    src: url(./assets/fonts/NeueHaasDisplayRoman.ttf);
+}
+@font-face {
+    font-family: neuthin;
+    src: url(./assets/fonts/NeueHaasDisplayXThin.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #EFEAE3;
+    
+}
+
+
