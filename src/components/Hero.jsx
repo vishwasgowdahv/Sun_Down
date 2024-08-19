@@ -64,7 +64,7 @@ export default function Hero() {
       </div>
       <div className={styles.line}></div>
       <div className={styles.video}>
-        <video autoPlay loop muted src="src/assets/videos/main.mp4"></video>
+        <video autoPlay loop muted src="assets/videos/main.mp4"></video>
       </div>
       <div className={styles.wrapper}>
         <div className={styles.textmove}>
@@ -108,7 +108,7 @@ export default function Hero() {
         </div>
         <div className={styles.wrap2right}>
           <div className={styles.img}>
-            <img src="src/assets/images/nike.webp" alt="" />
+            <img src="assets/images/nike.webp" alt="" />
           </div>
           <div className={styles.para}>
             <p>
@@ -128,7 +128,7 @@ export default function Hero() {
         <div className="projectitems">
 
         <div
-          dataImage="src/assets/images/1.avif"
+          dataImage="assets/images/1.avif"
           onMouseLeave={hideimg}
           onMouseEnter={showimage}
           className={styles.projectitem}
@@ -136,7 +136,7 @@ export default function Hero() {
           NYFW Popup
         </div>
         <div
-          dataImage="src/assets/images/2.avif"
+          dataImage="assets/images/2.avif"
           onMouseLeave={hideimg}
           onMouseEnter={showimage}
           className={styles.projectitem}
@@ -144,7 +144,7 @@ export default function Hero() {
           Converse SoHo
         </div>
         <div
-          dataImage="src/assets/images/3.avif"
+          dataImage="assets/images/3.avif"
           onMouseLeave={hideimg}
           onMouseEnter={showimage}
           className={styles.projectitem}
@@ -152,7 +152,7 @@ export default function Hero() {
           50th Anniversary
         </div>
         <div
-          dataImage="src/assets/images/4.avif"
+          dataImage="assets/images/4.avif"
           onMouseLeave={hideimg}
           onMouseEnter={showimage}
           className={styles.projectitem}
@@ -160,7 +160,7 @@ export default function Hero() {
           Carmelo Anthony 7pm In Broklyn Set
         </div>
         <div
-          dataImage="src/assets/images/5.avif"
+          dataImage="assets/images/5.avif"
           onMouseLeave={hideimg}
           onMouseEnter={showimage}
           className={styles.projectitem}
@@ -168,7 +168,7 @@ export default function Hero() {
           Markers Studio HOI
         </div>
         <div
-          dataImage="src/assets/images/6.avif"
+          dataImage="assets/images/6.avif"
           onMouseLeave={hideimg}
           onMouseEnter={showimage}
           className={styles.projectitem}
@@ -176,7 +176,7 @@ export default function Hero() {
           Play New Kidvision
         </div>
         <div
-          dataImage="src/assets/images/7.avif"
+          dataImage="assets/images/7.avif"
           onMouseLeave={hideimg}
           onMouseEnter={showimage}
           className={styles.projectitem}
@@ -184,7 +184,7 @@ export default function Hero() {
           Kelce Super Bowl Party
         </div>
         <div
-          dataImage="src/assets/images/8.avif"
+          dataImage="assets/images/8.avif"
           onMouseLeave={hideimg}
           onMouseEnter={showimage}
           className={styles.projectitem}
